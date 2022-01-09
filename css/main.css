@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(180deg, rgb(254, 254, 254), rgb(254, 254, 254), rgb(209,221,247));
+}
+#nav-bar {
+display: flex;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; 
+  background: linear-gradient(180deg, rgb(209,221,247), rgb(254, 254, 254), rgb(254, 254, 254));
+  width: 100%;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+#logo {
+  display: inherit;
+  height: 75px;  
+}
+.nav-link {
+  max-height: 100%;
+  font-size: 20px;
+  display: inherit; /* Appied to ul to use flex.*/
+  text-decoration: none;
+  color: black;
+}
+#img-text {
+  bottom: 57%;
+  text-emphasis: bold;
+  background: linear-gradient(180deg, rgb(8,152,249), rgb(252,241,255), rgb(253, 92, 84));
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: Archivo Black;
+  font-size: 16px;
+}
+#heading1 {
+    text-decoration: underline
+}
+.space {
+  display: flex; /*removes dot from li */
+  padding: 15px;
+}
+.main-doc {
+  margin-top: 80px;
+}
+.txt {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
+.indie {
+   font-family: Indie Flower;
+}
+.alfa {
+  font-family: Alfa Slab One;
+}
+#video {
+  margin-left: 10%;
+  width: calc(100% / 3);
+  
+}
+.video-txt {
+ display: flex;  
+ height: 310px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+  list-style: none;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+#pricing {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-bottom: 0 auto;
+}
